@@ -1,0 +1,9 @@
+@property：修饰类属性
+eg：
+class Way：
+@property
+def show（self）：
+   return self.__show
+
+实例化：This=Way
+This.show  后无（），有（）的是方法
